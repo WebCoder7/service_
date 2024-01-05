@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    margin-top: 60px;
+}
+
+.org {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.marko {
+    display: flex;
+
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+
+.list_iteam {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.inp {
+    border-radius: 36px;
+    background: #f6f6f6;
+    width: 206px;
+    height: 56px;
+    flex-shrink: 0;
+    border: none;
+    outline: none;
+    outline: 10px;
+    padding-left: 20px;
+
+}
+
+.loggg {
+    width: 56px;
+    height: 56px;
+    margin-left: 150px;
+    margin-top: -93px;
+}
+
+.btn12 {
+    width: 159px;
+    height: 55px;
+    border-radius: 33px;
+    border: 1px solid #E0E0E0;
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: -30px;
+}
+
+.nav-icon {
+    width: 56px;
+    height: 54px;
+    flex-shrink: 0;
+    margin-left: -35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header-servis {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 157px;
+    padding-bottom: 110px;
+}
+
+.header-bg {
+    background: url(./img/Banner\ Image\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 90px;
+    margin-bottom: 200px;
+
+}
+
+.header-div {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.se-milagro {
+    text-align: center;
+}
+
+.se-text {
+    color: #7EB693;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.se-text2 {
+    color: #274C5B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+
+.se-green {
+    margin-bottom: 5px;
+    width: 52.654px;
+    height: 55.371px;
+}
+
+
+.se-text3 {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+
+.lorem1 {
+    color: #525C60;
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%;
+    margin-bottom: 40px;
+}
+
+
+.se-div {
+    text-align: end;
+}
+
+
+.se-div2 {
+    text-align: start;
+}
+
+
+.lorem1-2 {
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%;
+    /* 29.772px */
+    margin-bottom: 40px;
+}
+
+
+.photo {
+    width: 503px;
+    height: 850px;
+    flex-shrink: 0;
+}
+
+
+.img-don {
+    margin-left: -30px;
+    margin-top: -100px;
+    text-align: center;
+}
+
+
+.btn5 {
+    padding: 28px 36px 29px 36px;
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 16px;
+    border: 2px solid #335B6B;
+    background: #F9F8F8;
+    background: transparent;
+}
+
+.se-export {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+
+
+
+
+.sc-backg {
+    background: url(./img/Background\ Image.svg);
+}
+
+.sc-text {
+    color: #7EB693;
+    text-align: center;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 200px;
+}
+
+.sc-text2 {
+    color: #274C5B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+
+.sc-lorem-1 {
+    color: #274C5B;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%;
+    /* 29.772px */
+    margin-bottom: 50px;
+}
+
+
+.sc-imagediv {
+    text-align: center;
+    padding-bottom: 480px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
+/* *********** FOOTER *********** */
+
+
+.fr-text {
+    margin-bottom: 32px;
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.fr-email {
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165%;
+}
+
+
+.phone {
+    color: #525C60;
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 165%;
+    /* 29.7px */
+}
+
+
+.footer-div {
+    text-align: end;
+}
+
+
+.fr-text2 {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+.fr-logo-div {
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+
+.fr-lorem {
+    color: #525C60;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%;
+    /* 29.772px */
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.fr_icon-div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.fr_icon_st {
+    background-color: #274C5B;
+    color: #fff;
+    padding: 15px 15px;
+    border-radius: 50%;
+}
+
+
+.fr-text3 {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.fr_tex4 {
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 272.9%;
+    /* 49.122px */
+}
+
+
+.fr-div4 {
+    text-align: start;
+}
+
